@@ -21,7 +21,7 @@ import okhttp3.Headers;
 
 public class MovieTrailerActivity extends YouTubeBaseActivity {
 
-    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=AIzaSyBVFAqkktrmp7M07-Hv-kRaTp7J2LbnbYs&language=en-US";
+    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=<<api_key>>&language=en-US";
     public static final String TAG = "MovieTrailerActivity";
     List<Movie> movies;
 
